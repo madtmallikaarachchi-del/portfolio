@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dimuthu MallikaArachchi | Cybersecurity Engineering Student</title>
+<meta name="description" content="Portfolio of Dimuthu MallikaArachchi, cybersecurity engineering student at the University of Staffordshire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#home">Dimuthu M.</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="kicker">Cybersecurity Engineering, University of Staffordshire</p>
+    <h1>Dimuthu<br>MallikaArachchi</h1>
+    <p class="lead">I spent seven years judging gems for flaws. Now I look for them in systems, and I'm learning to fix them before anyone gets hurt.</p>
+    <div class="actions">
+      <a class="btn gold" href="#projects">See my projects</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="gem-wrap" id="gemWrap" aria-hidden="true">
+    <svg id="gem" viewBox="0 0 400 400" role="img"></svg>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="cols">
+    <div>
+      <h2>From gemstones to security</h2>
+      <p>I'm a second-year Cybersecurity Engineering student from Sri Lanka. Before university, I ran my own gem trading business and completed a Diploma in Gemmology.</p>
+      <p>That work taught me to inspect closely, price risk honestly and earn a client's trust. I also trained three students in the trade. Those habits carry straight into security work.</p>
+    </div>
+    <div class="side">
+      <figure class="portrait"><img src="profile.png" alt="Portrait of Dimuthu MallikaArachchi" width="130" height="297"></figure>
+      <dl class="facts">
+      <div><dt>Studying</dt><dd>BSc Cybersecurity Engineering, year 2</dd></div>
+      <div><dt>Background</dt><dd>Gem trader and gemmologist</dd></div>
+      <div><dt>Languages</dt><dd>Sinhala, English</dd></div>
+      <div><dt>Based in</dt><dd>Sri Lanka</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="block tint" id="skills">
+  <h2>What I work with</h2>
+  <div class="skill-grid">
+    <div><h3>Security</h3><ul><li>Incident analysis</li><li>Ransomware response</li><li>Risk assessment</li><li>Security reporting</li></ul></div>
+    <div><h3>Cloud</h3><ul><li>AWS</li><li>Migration planning</li><li>Infrastructure design</li></ul></div>
+    <div><h3>Data</h3><ul><li>Power BI</li><li>Dashboards</li><li>Turning data into decisions</li></ul></div>
+    <div><h3>People</h3><ul><li>Negotiation</li><li>Mentoring</li><li>Client trust</li><li>Working independently</li></ul></div>
+  </div>
+</section>
+
+<section class="block" id="projects">
+  <h2>Projects</h2>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button class="chip on" data-filter="all">All</button>
+    <button class="chip" data-filter="security">Security</button>
+    <button class="chip" data-filter="cloud">Cloud</button>
+    <button class="chip" data-filter="data">Data</button>
+  </div>
+  <div class="projects">
+    <article class="proj security" data-tag="security">
+      <h3>MediSecure ransomware case study</h3>
+      <p>Analysed a healthcare ransomware incident, assessed what went wrong and wrote a structured security report with a presentation.</p>
+      <p class="tools">Incident analysis, risk assessment, reporting</p>
+    </article>
+    <article class="proj cloud" data-tag="cloud">
+      <h3>PixelForge migration to AWS</h3>
+      <p>Wrote a consultancy-style report and presentation recommending how a game studio could move its infrastructure to AWS.</p>
+      <p class="tools">AWS, cloud design, consulting</p>
+    </article>
+    <article class="proj data" data-tag="data">
+      <h3>Xbox Game Pass analytics</h3>
+      <p>Built a Power BI report exploring title popularity, ratings, completion, achievements and catalogue trends.</p>
+      <p class="tools">Power BI, data analytics, visualisation</p>
+    </article>
+  </div>
+  <p class="note">More work is on <a href="https://github.com/madtmallikaarachchi-del" target="_blank" rel="noopener">my GitHub</a>.</p>
+</section>
+
+<section class="block tint" id="journey">
+  <h2>Journey</h2>
+  <ol class="timeline">
+    <li><span class="when">Now</span><h3>BSc Cybersecurity Engineering, year 2</h3><p>University of Staffordshire</p></li>
+    <li><span class="when">2017 to 2024</span><h3>Self-employed gem trader</h3><p>Ran my own business and taught three students the trade.</p></li>
+    <li><span class="when">2022 to 2024</span><h3>Diploma in Gemmology</h3><p>Sabaragamuwa University of Sri Lanka</p></li>
+    <li><span class="when">2004 to 2018</span><h3>Sivali Central College</h3><p>Secondary education</p></li>
+  </ol>
+</section>
+
+<section class="block contact" id="contact">
+  <h2>Let's talk</h2>
+  <p>I'm looking for internships and junior security roles, and I'm happy to collaborate on projects.</p>
+  <div class="actions">
+    <a class="btn gold" href="mailto:madtmallikaarachchi@gmail.com">Email me</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/dimuthu-mallikaarachchi-214416334/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn ghost" href="https://github.com/madtmallikaarachchi-del" target="_blank" rel="noopener">GitHub</a>
+    <button class="btn ghost" id="shareBtn" type="button">Share this page</button>
+  </div>
+  <p class="status" id="shareMsg" role="status"></p>
+</section>
+</main>
+
+<footer>© <span id="year">2026</span> Dimuthu MallikaArachchi</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
